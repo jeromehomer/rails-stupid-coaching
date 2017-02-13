@@ -1,0 +1,15 @@
+<h1>This is what you get</h1>
+
+<div class="container" class="text-center">
+  <h2><%= params[:question_type].capitalize %></h2>
+  <p> --- you </p>
+</div>
+
+<div class="container">
+  <h2><%= @coach_answer%></h2>
+  <p> ---- Your Coach </p>
+</div>
+
+
+<%= link_to "Ask a new question", "/ask", class: "btn btn-primary" %>
+
